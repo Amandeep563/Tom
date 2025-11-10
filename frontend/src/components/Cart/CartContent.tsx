@@ -46,7 +46,16 @@ const CartContent = () => {
             size: "M",
             color: "White",
             quantity: 1,
-            price: 50,
+            price: 500,
+            image: "https://picsum.photos/200?random=1"
+        },
+        {
+            productId: 4,
+            name: "ayush",
+            size: "S ",
+            color: "Black",
+            quantity: 1,
+            price: 150,
             image: "https://picsum.photos/200?random=1"
         }
 

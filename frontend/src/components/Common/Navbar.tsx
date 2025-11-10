@@ -61,7 +61,6 @@ const Navbar = () => {
                             69
                         </span>
                     </button>
-                    {/* Search */}
                     <div className="overflow-hidden">
                         <SearchBar />
                     </div>
