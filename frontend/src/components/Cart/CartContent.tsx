@@ -15,20 +15,20 @@ const CartContent = () => {
     const cartProducts: CartProducts[] = [
         {
             productId: 1,
-            name: "Sourav",
+            name: "Aman",
             size: "M",
             color: "Red",
             quantity: 3,
-            price: 1500,
+            price: 500,
             image: "https://picsum.photos/200?random=1"
         },
         {
             productId: 2,
-            name: "Avijt",
+            name: "Aman",
             size: "S",
             color: "Black",
             quantity: 1,
-            price: 350,
+            price: 500,
             image: "https://picsum.photos/200?random=1"
         },
         {
@@ -51,11 +51,11 @@ const CartContent = () => {
         },
         {
             productId: 4,
-            name: "ayush",
+            name: "Aman",
             size: "S ",
             color: "Black",
             quantity: 1,
-            price: 150,
+            price: 500,
             image: "https://picsum.photos/200?random=1"
         }
 
