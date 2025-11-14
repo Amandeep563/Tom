@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter } from "lucide-react"
+import { Facebook, Instagram, Phone, Twitter } from "lucide-react"
 import { Link } from "react-router-dom"
 
 const Footer = () => {
@@ -63,7 +63,17 @@ const Footer = () => {
                             <Facebook className="w-5 h-5" />
                         </a>
                     </div>
+                    <p className="text-gray-500">Call us</p>
+                    <p>
+                        <Phone className="inline-block mr-2 w-5 h-5" />
+                        0123-456-789
+                    </p>
                 </div>
+            </div>
+            {/* copyright */}
+            <div className="container mx-auto mt-12 px-0 border-t border-gray-200 pt-6">
+                <p className="text-gray-500 text-sm tracking-tighter text-center">© 2025, ComileTab. All Rights Reserved.</p>
+
             </div>
         </footer >
     )

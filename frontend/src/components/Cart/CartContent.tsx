@@ -1,14 +1,5 @@
 import { Trash } from "lucide-react"
 
-type CartProducts = {
-    productId: number,
-    name: string,
-    size: string,
-    color: string,
-    quantity: number,
-    price: number,
-    image: string
-}
 
 
 const CartContent = () => {
